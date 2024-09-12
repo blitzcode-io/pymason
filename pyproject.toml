@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pymason"
+version = "0.1.0"
+description = "Make setting up your project a breeze"
+authors = ["Rahul T Gerorge <34202955+rahul-george@users.noreply.github.com>"]
+license = "BSD3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+click = "^8.1.7"
+poetry = "^1.8.3"
+toml = "^0.10.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
